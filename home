@@ -1,0 +1,33 @@
+#!/usr/xbin/bash
+#Created BilNabil
+#Recode? Boleh
+#Reshare? Boleh
+#Pamer? Jgn
+
+
+k="\033[33;1m"
+ m="\033[31;1m"
+  pu="\033[39;1m"
+   p="\033[36;1m"
+    b="\033[34;1m"
+     h="\033[32;1m"
+      c="\033[35;1m"
+       JAM=`date +%H`                 
+        MENIT=`date +%M`
+         DETIK=`date +%S`
+         TANGGAL=`date +%d`
+        BULAN=`date +%m`
+      TAHUN=`date +%Y`
+mp="\033[41;1;39m"
+o="\033[0m"
+clear
+
+printf "\n         ${h}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   \n"		
+printf "             \n"
+printf "${p}            [${p}▒█▄░▒█ ${k}░█▀▀█ ${h}▒█▀▀█ ${pu}▀█▀ ${m}▒█░░░${m}]\n"
+printf "${p}            [${p}▒█▒█▒█ ${k}▒█▄▄█ ${h}▒█▀▀▄ ${pu}▒█░ ${m}▒█░░░${m}] \n"
+printf "${p}            [${p}▒█░░▀█ ${k}▒█░▒█ ${h}▒█▄▄█ ${pu}▄█▄ ${m}▒█▄▄█${m}]\n"
+printf "${h}                 ${m}[ ${p}The Real Bang Jago ${m}]\n"
+printf "${h}         ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n\n"
+
+export PS1='\[\033[01;39m\][ \[\033[01;35m\]${PWD/*\//}\[\033[01;39m\] ]\[\033[01;31m\]•\[\033[01;32m\]>\[\033[01;39m\] '
